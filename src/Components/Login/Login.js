@@ -1,5 +1,5 @@
 import React,{useState,useContext} from 'react';
-import {NavLink, useHistory} from 'react-router-dom'
+import {useHistory} from 'react-router-dom'
 import {FirebaseContext} from '../../Store/Context'
 import Logo from '../../olx-logo.png';
 import './Login.css';
@@ -22,7 +22,7 @@ function Login() {
   return (
     <div>
       <div className="loginParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        <img width="200px" height="200px" alt='' src={Logo}></img>
         <form onSubmit={handleLogin}>
           <label htmlFor="fname">Email</label>
           <br />

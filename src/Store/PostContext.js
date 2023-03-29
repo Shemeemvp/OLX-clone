@@ -1,13 +1,11 @@
-import { createContext,useState } from "react";
-
+import  React,{ createContext,useState } from "react";
 export const PostContext = createContext(null);
 
 function Post ({children}){
 
     const [postDetails, setPostDetails] = useState();
 
-    return(
-        <PostContext.Provider value={{postDetails,setPostDetails}}>
+    return(<PostContext.Provider value={{postDetails,setPostDetails}}>
             {children}
         </PostContext.Provider>
     )

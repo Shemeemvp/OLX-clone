@@ -6,7 +6,7 @@ import Signup from "./Pages/Signup";
 /**
  * ?  =====Import Components=====
  */
-import react from "react";
+
 import Home from "./Pages/Home";
 import Login from "./Components/Login/Login";
 import View from "./Pages/ViewPost";

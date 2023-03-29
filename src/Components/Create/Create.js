@@ -2,7 +2,6 @@ import React, { Fragment, useState,useContext } from "react";
 import { useHistory } from "react-router-dom";
 import "./Create.css";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 import { AuthContext, FirebaseContext } from "../../Store/Context";
 
 const Create = () => {
